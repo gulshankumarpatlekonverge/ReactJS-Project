@@ -19,7 +19,9 @@ ReactJS Project
         3. Reviews
         4. Accordion
         5. Menu
-        6.
+        6. Tabs
+            API Link: 
+                https://course-api.com/react-tabs-project
         7.
         8.
         9.
