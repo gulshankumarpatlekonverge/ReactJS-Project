@@ -17,7 +17,7 @@ ReactJS Project
                 https://course-api.netlify.app/api/react-tour-project
                 https://course-api.com/react-tours-project
         3. Reviews
-        4.
+        4. Accordion
         5.
         6.
         7.
