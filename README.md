@@ -22,7 +22,7 @@ ReactJS Project
         6. Tabs
             API Link: 
                 https://course-api.com/react-tabs-project
-        7.
+        7. Slider
         8.
         9.
         10.
