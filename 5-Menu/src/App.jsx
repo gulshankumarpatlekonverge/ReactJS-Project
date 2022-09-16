@@ -4,10 +4,11 @@ import './App.css'
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
+const allCategories = ['all', ...new Set(items.map((item) => item.category))] ;
 
 function App() {
   const [menuItem, setMenuItem] = useState(items);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(allCategories);
 
   const fileterItems = (category) => {
       if(category === 'all'){
@@ -26,7 +27,7 @@ function App() {
           <h2>Our Menu</h2>
           <div className='underline'></div>
         </div>
-        <Categories filterItems = {fileterItems}/>
+        <Categories categories = {categories} filterItems = {fileterItems}/>
         <Menu items = {menuItem} />
       </section>
    </main>

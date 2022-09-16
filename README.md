@@ -18,7 +18,7 @@ ReactJS Project
                 https://course-api.com/react-tours-project
         3. Reviews
         4. Accordion
-        5.
+        5. Menu
         6.
         7.
         8.
