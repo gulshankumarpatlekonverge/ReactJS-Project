@@ -25,6 +25,8 @@ ReactJS Project
         7. Slider
         8. Lorem Ipsum Paragraph Genarator(0 to 8)
         9. Color Generator
+            Value.js library:
+                https://github.com/noeldelgado/values.js
         10.
         11.
         12.
