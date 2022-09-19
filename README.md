@@ -23,8 +23,8 @@ ReactJS Project
             API Link: 
                 https://course-api.com/react-tabs-project
         7. Slider
-        8.
-        9.
+        8. Lorem Ipsum Paragraph Genarator(0 to 8)
+        9. Color Generator
         10.
         11.
         12.
