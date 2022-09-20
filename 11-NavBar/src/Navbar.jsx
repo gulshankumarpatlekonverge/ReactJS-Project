@@ -13,10 +13,10 @@ const Navbar = () => {
                 <FaBars />
               </button>
             </div>
-            {
-              showLinks && 
-                <div className="links-container show-container">
-                <ul className="links">
+       
+      
+            <div className={`${showLinks? 'links-container show-container' : 'links-container'}`}>
+              <ul className="links">
                   {
                     links.map((link) => {
                     const {id, url, text} = link
@@ -27,9 +27,8 @@ const Navbar = () => {
                         )
                     })
                   }
-                </ul>
-              </div>
-            }
+              </ul>
+            </div>
            
             <ul className="social-icons">
               {
