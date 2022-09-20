@@ -28,7 +28,7 @@ ReactJS Project
             Value.js library:
                 https://github.com/noeldelgado/values.js
         10. Grocery Bud
-        11.
+        11. NavBar Intro
         12.
         13.
         14.
