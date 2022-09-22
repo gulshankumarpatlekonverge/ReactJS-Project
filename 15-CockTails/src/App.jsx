@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 // import pages
 import Home from './pages/Home'
 import About from './pages/About'
@@ -13,8 +13,15 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <>
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+          <Route exact path = "/" element={<Home />} />
+          <Route path = "/about" element={<About />} />
+          <Route path = "/cocktail/:id" element={<SingleCocktail />} />
+          <Route path = "*" element={<Error />} />
+      </Routes>
+    </Router>
   )
 }
 
