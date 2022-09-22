@@ -34,6 +34,9 @@ ReactJS Project
         14. Cart 
                 https://course-api.com/react-useReducer-cart-project
         15. Cocktails
+            https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=A1
+            
+            https://www.thecocktaildb.com/api/json/v1/1/search.php?s=ac
 
 # Important Links:
 
