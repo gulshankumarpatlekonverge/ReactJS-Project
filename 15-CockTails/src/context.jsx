@@ -29,7 +29,7 @@ const AppProvider = ({ children }) => {
         setCocktails([])
       }
       setLoading(false)
-      console.log(data);
+    //  console.log(data);
     } catch (error) {
       console.log(error);
       setLoading(false)
