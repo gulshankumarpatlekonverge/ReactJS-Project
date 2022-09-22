@@ -29,10 +29,11 @@ ReactJS Project
                 https://github.com/noeldelgado/values.js
         10. Grocery Bud
         11. NavBar Intro
-        12.
-        13.
-        14.
-        15.
+        12. Sidebar and Modal
+        13. Stripe Submenu
+        14. Cart 
+                https://course-api.com/react-useReducer-cart-project
+        15. Cocktails
 
 # Important Links:
 
